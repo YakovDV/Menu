@@ -33,6 +33,7 @@ public class VolumeSlider : MonoBehaviour
         if (value <= 0)
         {
             _audioMixerGroup.audioMixer.SetFloat(_channelName, -80f);
+            return;
         }
 
         _audioMixerGroup.audioMixer.SetFloat(_channelName, Mathf.Log10(value) * DecibelMultiplier);

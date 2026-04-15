@@ -629,6 +629,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db64aa1092fb5ea409501d040b22036b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioMixer: {fileID: 24100000, guid: e483e0c46657231469042ae80f2a852f, type: 2}
+  _channelName: VolumeMaster
 --- !u!1 &75860885
 GameObject:
   m_ObjectHideFlags: 0
